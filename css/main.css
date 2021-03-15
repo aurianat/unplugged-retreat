@@ -374,15 +374,117 @@ flex-flow: row-wrap;
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+/* Tabelt styles here */
+
+.content-wrapper {
+	max-width: 640px;
+	margin: 100px 0;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+header {
+ justify-content: space-around;
+ padding: 33px 0;
+}
+
+header .content-wrapper {
+	width: 100%;
+	justify-content: space-between;
+	
+}
+
+header nav {
+	width: 20%;
+}
+
+header nav ul {
+	justify-content: space-between;
+}
+
+header .header-divider {
+	display: none;
+}
+
+/****** Base Header & Footer Styles *******/
+
+
+/* Hero Area */
+.hero-area {
+
+}
+
+/* Aside */
+
+aside .content-wrapper {
+	margin: 50px 0;
+}
+
+aside .content-area {
+	/*display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;*/
+	margin: 50px 0;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+	width: 40%;
+	margin: 0;
+}
+
+/*Features*/
+
+.features article {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: column wrap;
+	flex-basis: 50%;
+}
+
+.features .features-item-description {
+	width: 50%;
+}
+
+
+/*Reviews*/
+
+.reviews article {
+ justify-content: space-around;
+}
+
+.reviews article div {
+
+}
+
+
+/* FOOTER */
+
+footer .content-wrapper {
+	width: ;
+	margin: 100px 0;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .contact {
+	margin-bottom: 0;
+}
+
+footer .copyright {
+	width: ;
+}
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+/* Desktop Styles here */
+
 }
 
 /* ==========================================================================
