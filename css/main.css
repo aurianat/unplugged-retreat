@@ -432,10 +432,11 @@ aside .content-wrapper .form {
 
 .features article {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	flex-flow: column wrap;
 	flex-basis: 50%;
+/*Changed justify contnet to center not space around*/
 }
 
 .features .features-item-description {
@@ -446,7 +447,9 @@ aside .content-wrapper .form {
 /*Reviews*/
 
 .reviews article {
- justify-content: space-around;
+	display: flex;
+ 	justify-content: space-between;
+ /*Added display flex and changed to space between*/
 }
 
 .reviews article div {
