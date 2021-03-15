@@ -486,11 +486,50 @@ footer .copyright {
 to the left(?)*/
 }
 
+/* ==========================================================================
+	About page
+   ========================================================================== */
+
+.mission-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.mission-content p {
+	width: 45%;
+/*when I had the width at 65% it seemed to match 
+the psd more than the solution code of 45....(?)*/
+}
+
+.contact-section .content-wrapper h2 {
+	width: 80%;
+/* I am not seeing any changes to the width or size of h2*/
+}
+
+.contact-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+/*Incorrectly had space-around and align:center;*/
+}
+
+/*footer copyright isn't showing up?*/
 
 }
 
+
+/* ==========================================================================
+	FAQ Page
+   ========================================================================== */
+
+
+
+
 @media only screen and (min-width: 1200px) {
 /* Desktop Styles here */
+
 
 }
 
