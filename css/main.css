@@ -540,8 +540,73 @@ the psd more than the solution code of 45....(?)*/
 @media only screen and (min-width: 1200px) {
 /* Desktop Styles here */
 
+/* General Styles*/
+.content-wrapper {
+	max-width: 960px;
+}
+
+
+
+/* Hero Area */
+
+.hero-area h1 {
+	width: 60%;
+/* I originally guessed 45% */
+}
+
+
+/* Aside */
+
+aside .content-wrapper {
+	justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+	width: 30%;
+}
+
+/* Features */
+
+.features h2 {
+	width: 90%;
+/*I originally had width: 80%; */
+}
+
+
+
+.features article {
+	flex-basis: 33%;
+}
+
+
+/* Reviews */
+.reviews article div {
+	width: 42%;
+}
+
+/* ==========================================================================
+	About Page
+   ==========================================================================
+*/
+
+	.mission h2,
+	.contact-section .contetn-wrapper h2 {
+		width: 95%;
+	}
+
+ /* ==========================================================================
+	FAQ Page
+   ==========================================================================
+ */
+
+ 	.faq h2 {
+ 		width: 100%;
+ 	}
 
 }
+
+
 
 /* ==========================================================================
    Print styles.
