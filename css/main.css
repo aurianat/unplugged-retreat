@@ -130,11 +130,11 @@ p {
 }
 
 img {
-
+	width: 100%;
 }
 
 figure {
-
+	margin: 0;
 }
 
 address {
@@ -177,6 +177,14 @@ header .header-divider {
 	height: 1px;
 	margin: 10px 0 20px 0;
 
+}
+
+header figure {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 
 header nav {
@@ -243,6 +251,8 @@ footer .copyright {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
+	background-image: url('img/hero/jpg') center no-repeat;
+	background-size: cover;
 }
 
 .hero-area h1 {
@@ -513,6 +523,10 @@ header .content-wrapper {
 	
 }
 
+header figure {
+	width: 30%;
+}
+
 header nav {
 	width: 20%;
 }
@@ -663,7 +677,9 @@ the psd more than the solution code of 45....(?)*/
 	max-width: 960px;
 }
 
-
+header figure {
+	width: 25%;
+}
 
 /* Hero Area */
 
