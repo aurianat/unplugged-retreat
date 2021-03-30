@@ -595,7 +595,11 @@ aside .content-wrapper .form {
 	align-items: center;
 	flex-flow: column wrap;
 	flex-basis: 50%;
-/*Changed justify contnet to center not space around*/
+}
+
+.features i {
+	font-size: 3.75em;
+		margin-bottom: 40px;
 }
 
 .features .features-item-description {
@@ -608,14 +612,10 @@ aside .content-wrapper .form {
 .reviews article {
 	display: flex;
  	justify-content: space-between;
- /*Added display flex and changed to space between*/
-}
+ }
 
 .reviews article div {
-	width: 49%
-/*I need to add a width! since I didn't have one that was
-the reason the reviews spanned to whole container.*/
-}
+	width: 49%}
 
 
 /* FOOTER */
@@ -623,9 +623,6 @@ the reason the reviews spanned to whole container.*/
 footer .content-wrapper {
 	width: 65%;
 	margin: 100px 0;
-/*before adding the width, the contact and social
-spanned the opposite ends of the container, adding the width
-kept the distance in between but brought them closer to each other.*/
 }
 
 .footer-content {
@@ -641,8 +638,6 @@ footer .contact {
 footer .copyright {
 	width: 100%;
 
-/*When I added the width it pushed to copyright
-to the left(?)*/
 }
 
 /* ==========================================================================
