@@ -658,24 +658,20 @@ to the left(?)*/
 
 .mission-content p {
 	width: 45%;
-/*when I had the width at 65% it seemed to match 
-the psd more than the solution code of 45....(?)*/
 }
 
 .contact-section .content-wrapper h2 {
 	width: 80%;
-/* I am not seeing any changes to the width or size of h2*/
 }
 
 .contact-content {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-/*Incorrectly had space-around and align:center;*/
 }
 
-/*footer copyright isn't showing up?*/
-
+.map figure {
+	padding-bottom: 45%;
 }
 
 
@@ -751,10 +747,15 @@ aside .content-wrapper .form {
    ==========================================================================
 */
 
-	.mission h2,
-	.contact-section .contetn-wrapper h2 {
-		width: 95%;
-	}
+.mission h2,
+.contact-section .contetn-wrapper h2 
+{
+	width: 95%;
+}
+
+.map figure {
+	padding-bottom: 38%;
+}
 
  /* ==========================================================================
 	FAQ Page
