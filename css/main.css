@@ -370,7 +370,6 @@ input[type=button] {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
-
 }
 
 .reviews h2 {
@@ -626,10 +625,6 @@ aside .content-wrapper {
 	flex-flow: row wrap;
 }
 
-/* removed the aside .content -area where I originally had 
-the margin placed. aslo changed justify content to space-between not space around and 
-it fixed up everything! */
-
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
 	width: 40%;
@@ -637,6 +632,10 @@ aside .content-wrapper .form {
 }
 
 /*Features*/
+
+.features h2 {
+	margin-bottom: 20px;
+}
 
 .features article {
 	display: flex;
@@ -646,15 +645,13 @@ aside .content-wrapper .form {
 	flex-basis: 50%;
 }
 
-.features i {
-	border-color: #527158;
-	font-size: 3.75em;
-	margin-bottom: 40px;
-
+.features .features-item-description {
+	width: 62%;
 }
 
-.features .features-item-description {
-	width: 50%;
+.features i {
+	margin-bottom: 30px;
+
 }
 
 
@@ -663,6 +660,11 @@ aside .content-wrapper .form {
 .reviews article {
 	display: flex;
  	justify-content: space-between;
+ 	flex-flow: row;
+ }
+
+ .reviews h2 {
+ 	width: 85%;
  }
 
 .reviews article div {
@@ -721,12 +723,24 @@ footer .copyright {
 	width: 45%;
 }
 
+.mission .content-wrapper {
+	margin: 90px 0;
+}
+
 .contact-section .content-wrapper h2 {
 	width: 80%;
 }
 
+.mission h2 {
+	margin-top: 0;
+}
+
 .map figure {
 	padding-bottom: 45.5%;
+}
+
+.contact-section .content-wrapper {
+	margin: 90px 0;
 }
 
 .contact-content {
@@ -734,6 +748,7 @@ footer .copyright {
 	justify-content: space-between;
 	align-items: flex-start;
 }
+
 
 
 /* ==========================================================================
