@@ -103,6 +103,8 @@ body {
 ul,
 ol {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 a {
@@ -151,18 +153,18 @@ margin-top: 50px 0;
 
 header,
 footer {
-	align-items: center;
 	background-color: #202322;
 	display: flex;
-	flex-flow: row wrap;
 	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 
 header {
 	padding: 15px 0;
 }
 
-/* Header styles */
+
 header .content-wrapper {
 	display: flex;
 	justify-content: center;
@@ -233,9 +235,17 @@ align-items: center;
 }
 
 footer .social-icons p {
-display: flex;
-justify-content: center;
-align-items: center;
+	background-color: #527158;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .social-icons p i {
+	font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -598,8 +608,10 @@ aside .content-wrapper .form {
 }
 
 .features i {
+	border-color: #527158;
 	font-size: 3.75em;
-		margin-bottom: 40px;
+	margin-bottom: 40px;
+
 }
 
 .features .features-item-description {
@@ -625,10 +637,11 @@ footer .content-wrapper {
 	margin: 100px 0;
 }
 
-.footer-content {
+footer .footer-content {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-direction: row;
 }
 
 footer .contact {
@@ -639,6 +652,20 @@ footer .copyright {
 	width: 100%;
 
 }
+
+footer p {
+	line-height: 1.285;
+}
+
+footer .social-icons {
+	width: 12.5em;
+	justify-content: space-between;
+}
+
+footer .copyright {
+	width: 100%;
+}
+
 
 /* ==========================================================================
 	About page
@@ -659,14 +686,14 @@ footer .copyright {
 	width: 80%;
 }
 
+.map figure {
+	padding-bottom: 45.5%;
+}
+
 .contact-content {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-}
-
-.map figure {
-	padding-bottom: 45%;
 }
 
 
@@ -679,31 +706,48 @@ footer .copyright {
 }
 
 .faq-content {
-	flex-basis: 40%;
+	flex-basis: 45%;
 }
 
 .faq h2 {
 	width: 100%;
 }
 
+.faq h4,
+.faq p {
+	font-size: .875em;
+	line-height: 1.125;
+}
 
 @media only screen and (min-width: 1200px) {
 /* Desktop Styles here */
 
 /* General Styles*/
+
+header {
+	padding: 15px 0;
+}
+
 .content-wrapper {
 	max-width: 960px;
 }
 
-header figure {
-	width: 25%;
+h2 {
+	font-size: 2.25em;
+}
+
+h3,
+h4 {
+	font-size: 1.25em;
+	line-height: 1.333;
 }
 
 /* Hero Area */
 
 .hero-area h1 {
-	width: 60%;
-/* I originally guessed 45% */
+	font-size: 3.75em;
+	width: 80%;
+
 }
 
 
@@ -718,14 +762,15 @@ aside .content-wrapper .form {
 	width: 30%;
 }
 
+.form-description p {
+	font-size: 1.125em;
+}
+
 /* Features */
 
 .features h2 {
 	width: 90%;
-/*I originally had width: 80%; */
 }
-
-
 
 .features article {
 	flex-basis: 33%;
@@ -733,34 +778,53 @@ aside .content-wrapper .form {
 
 
 /* Reviews */
+.reviews h2 {
+	padding-bottom: 50px;
+}
+
 .reviews article div {
 	width: 42%;
+}
+
+footer h4 {
+	font-size: 1.875em;
 }
 
 /* ==========================================================================
 	About Page
    ==========================================================================
 */
-
-.mission h2,
-.contact-section .contetn-wrapper h2 
-{
-	width: 95%;
-}
-
 .map figure {
 	padding-bottom: 38%;
 }
+
+.mission h2,
+.contact-section .contetn-wrapper h2 {
+	width: 95%;
+	font-size: 3em;
+}
+
+.contact-content h4 {
+	font-size: 1.875em;
+}
+
+
 
  /* ==========================================================================
 	FAQ Page
    ==========================================================================
  */
 
- 	.faq h2 {
- 		width: 100%;
- 	}
-
+ .faq h2 {
+    width: 100%;
+    font-size: 3em;
+  }
+    
+ .faq h4,
+ .faq p {
+      font-size: 1.125em;
+      line-height: 1;
+  }
 }
 
 
