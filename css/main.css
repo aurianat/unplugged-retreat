@@ -220,7 +220,7 @@ footer p {
 }
 
 footer .content-wrapper {
-	width: 55%
+	width: 55%;
 	margin: 50px 0;
 }
 
@@ -302,7 +302,7 @@ aside .form {
 input[type=text] {
 	box-sizing: border-box;
 	width: 100%;
-	color: #2a423a;
+	color: #527158;
 	font-style: italic;
 	padding: 1em;
 }
@@ -411,7 +411,7 @@ input[type=button] {
 
 .mission p {
 	font-size: .875em;
-	line-height: 1.2;
+	line-height: 1.35;
 }
 
 /* Contact */
@@ -429,6 +429,7 @@ input[type=button] {
 
 .contact-content p {
 	margin: 0;
+	line-height: 1.333;
 }
 
 .map figure {
@@ -481,11 +482,12 @@ input[type=button] {
 
 .faq-content h4 {
 	line-height: 1.3333;
-	margin-bottom: 0;
+	margin-bottom: 10;
 }
 
 .faq-content p {
 	margin: 0;
+	line-height: 1.3333;
 }
 
 
@@ -660,7 +662,6 @@ aside .content-wrapper .form {
 .reviews article {
 	display: flex;
  	justify-content: space-between;
- 	flex-flow: row;
  }
 
  .reviews h2 {
@@ -668,7 +669,14 @@ aside .content-wrapper .form {
  }
 
 .reviews article div {
-	width: 49%}
+	width: 49%
+}
+
+.reviews article figure,
+.reviews article div {
+	width: 49%;
+}
+
 
 
 /* FOOTER */
